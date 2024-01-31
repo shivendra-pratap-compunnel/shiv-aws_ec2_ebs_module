@@ -8,7 +8,7 @@ Configuration in this module creates EC2 instances, EBS volume and attach it tog
 
 ```hcl
 module "ec2" {
-  source                 = "git::https://github.com/CD-TeraformModules/aws-ec2-with-ebs.git"
+  source                 = "git::https://github.com/shivendra-pratap-compunnel/aws_ec2_ebs_module.git"
   ami                    = "ami-0c7217cdde317cfec"
   instance_name          = "example_ec2"
   instance_type          = "t2.micro"
